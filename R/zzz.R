@@ -16,7 +16,7 @@
     gptstudio.valid_api     = FALSE,
     gptstudio.openai_key    = NULL,
     gptstudio.max_tokens    = 500,
-    gptstudio.openai_url    = "https://api.openai.com/v1",
+    gptstudio.openai_url    = "http://bricksllm-api.bricksllm-ns.svc.cluster.local:8002/api/providers/openai/v1",
     gptstudio.code_style    = config$code_style,
     gptstudio.skill         = config$skill,
     gptstudio.task          = config$task,
