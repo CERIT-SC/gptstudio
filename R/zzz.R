@@ -22,7 +22,7 @@
     gptstudio.task          = config$task,
     gptstudio.language      = config$language,
     gptstudio.service       = config$service,
-    gptstudio.model         = config$model,
+    gptstudio.model         = "gpt-4o-mini",
     gptstudio.custom_prompt = config$custom_prompt,
     gptstudio.stream        = config$stream,
     # options added after v3.0 will need a safe check because the user's
